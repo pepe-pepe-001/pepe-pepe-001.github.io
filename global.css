@@ -1,0 +1,135 @@
+:root {
+    --gameWidth: 300px;
+    --gameHeight: 300px;
+}
+
+/* remove margin and padding from body */
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+/* set size for the scenes */
+.sceneContainer {
+    width: var(--gameWidth);
+    height: var(--gameHeight);
+    background-color: gray;
+}
+
+/***********************************************************/
+/* fade in */
+.fade-in {
+    -webkit-animation: fade-in 0.5s ease-out both;
+    animation: fade-in 0.5s ease-out both;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/***********************************************************/
+/* fade out */
+.fade-out {
+    -webkit-animation: fade-out 0.5s ease-out both;
+    animation: fade-out 0.5s ease-out both;
+}
+
+@-webkit-keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/***********************************************************/
+/* slide in from right */
+.slide-in-right {
+    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: slide-in-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes slide-in-right {
+    0% {
+        -webkit-transform: translateX(1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/***********************************************************/
+/*fade out while sliding to the left */
+.slide-out-left {
+    -webkit-animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes slide-out-left {
+    0% {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translateX(-1000px);
+        opacity: 0;
+    }
+}
+
+@keyframes slide-out-left {
+    0% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+}

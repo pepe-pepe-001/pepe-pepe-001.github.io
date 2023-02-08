@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu_buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu_buttons button {
+    margin-bottom: 5px;
+}
+
+#sound_button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}

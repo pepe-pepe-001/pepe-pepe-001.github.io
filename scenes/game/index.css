@@ -1,0 +1,33 @@
+:root {
+    --cw: 100px;
+    --ch: 100px;
+    --cp: 1px;
+}
+
+.container {
+    background-color: lightgray;
+}
+
+.cell {
+    width: var(--cw);
+    height: var(--ch);
+    background-color: gray;
+    margin: var(--cp);
+}
+
+.row {
+    display: flex;
+}
+
+.x {
+    background-image: url("data:image/svg+xml,%3Csvg fill='%23000000' height='800px' width='800px' version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 460.775 460.775' xml:space='preserve'%3E%3Cpath d='M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55 c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55 c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505 c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55 l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719 c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.o {
+    background-image: url("data:image/svg+xml,%3Csvg fill='%23000000' height='800px' width='800px' version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 480.223 480.223' xml:space='preserve'%3E%3Cpath d='M240.111,0C107.718,0,0.006,107.71,0.006,240.104c0,132.401,107.711,240.119,240.105,240.119 s240.105-107.718,240.105-240.119C480.216,107.71,372.505,0,240.111,0z M240.111,432.564c-1.256,0-2.475-0.162-3.724-0.185 C165.42,396.907,116.506,323.854,116.506,239.11c0-83.029,46.984-154.818,115.646-191.051c2.653-0.108,5.276-0.401,7.959-0.401 c106.113,0,192.447,86.332,192.447,192.445C432.559,346.225,346.225,432.564,240.111,432.564z'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

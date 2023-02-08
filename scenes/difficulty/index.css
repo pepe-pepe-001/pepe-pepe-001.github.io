@@ -1,0 +1,16 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.options button {
+    margin-bottom: 5px;
+}
