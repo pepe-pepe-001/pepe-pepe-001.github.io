@@ -42,7 +42,7 @@ document.querySelector('.sceneContainer')
             if (endGame()) return;
 
             // console.log(classArray);
-            console.log(difficulty);
+            //console.log(difficulty);
             let move = minmax(classArray, 'o', difficulty);
             // console.log(move);
             move = move.bestMove;
@@ -146,7 +146,8 @@ function minmax(newBoard, turn, difficulty = 'hard') {
     };
 
     function getBestMove() {
-        let bestMoves = [];
+        let easyMoves = [];
+        let mediumMoves = [];
         let bestMove;
 
         //hard
@@ -169,18 +170,28 @@ function minmax(newBoard, turn, difficulty = 'hard') {
             };
         };
 
-        bestMoves.push(bestMove);
+        //medium
+        mediumMoves.push(bestMove);
+        mediumMoves.push(bestMove);
+        mediumMoves.push(bestMove);
+        mediumMoves.push(getRandomInt(0, node.moves.length));
+        mediumMoves.push(bestMove);
 
-        for (let i = 0; i < 2; i++) {
-            bestMoves.push(getRandomInt(0, node.moves.length));
-        };
+        //easy
+        easyMoves.push(getRandomInt(0, node.moves.length));
+        easyMoves.push(bestMove);
+        easyMoves.push(getRandomInt(0, node.moves.length));
 
+        // for (let i = 0; i < 2; i++) {
+        // };
+
+        let temp;
         if (difficulty == 'easy') {
-            return bestMoves[getRandomInt(0,bestMoves.length)];
+            return easyMoves[getRandomInt(0,easyMoves.length)];
         } else if (difficulty == 'medium') {
-            return bestMoves[getRandomInt(0,bestMoves.length-1)];
+            return mediumMoves[getRandomInt(0,mediumMoves.length)];
         } else {
-            return bestMoves[0];
+            return bestMove;
         };
     };
 
