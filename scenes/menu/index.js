@@ -9,7 +9,7 @@ function navigateToGallery() {
 };
 
 playButton.addEventListener('click', event => {
-    animateAndNavigate(bc, 'slide-out-left', 'game_mode');
+    animateAndNavigate(bc, 'slide-out-left', 'difficulty');
 });
 
 //sound button

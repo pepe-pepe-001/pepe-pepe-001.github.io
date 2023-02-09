@@ -8,7 +8,7 @@ setTimeout(() => {
 
     //start fade out animation after 3 seconds
     //fade-out animation is set up to be 0.5s long
-    animateAndNavigate(bc, 'fade-out', 'menu');
+    animateAndNavigate(bc, 'fade-out', 'cutscene01');
 }, 3000);
 
 function setLogoCSSVariables() {

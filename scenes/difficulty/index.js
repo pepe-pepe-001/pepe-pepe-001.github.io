@@ -1,3 +1,10 @@
+//set line height of title
+setCSSVariable('root', 'titleHeight', `${document.querySelector('.title').clientHeight}px`)
+
+//set size of portraits on load
+let h = document.querySelector('.option').clientHeight;
+setCSSVariable('root', 'imgHeight', `${h}px`)
+
 // hard button
 const hardButton = document.querySelector('#hardButton');
 hardButton.addEventListener('click', event => {
