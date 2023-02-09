@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   id="svg2"
+   sodipodi:docname="polariod.svg"
+   viewBox="0 0 350 380"
+   sodipodi:version="0.32"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4">
+    <filter
+       id="filter2912"
+       inkscape:collect="always"
+       x="-0.025282515"
+       y="-0.022841154"
+       width="1.050565"
+       height="1.0456823">
+      <feGaussianBlur
+         id="feGaussianBlur2914"
+         stdDeviation="3.4782385"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     guidetolerance="10"
+     pagecolor="#ffffff"
+     gridtolerance="10000"
+     inkscape:window-height="1017"
+     width="800px"
+     inkscape:zoom="1.895"
+     objecttolerance="10"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="g3271"
+     inkscape:cx="77.836412"
+     inkscape:cy="200"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-width="1920"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:window-maximized="1" />
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(-413.06 -322.28)">
+    <g
+       id="g3271"
+       transform="translate(9.9102,9.3779)"
+       style="display:inline">
+      <path
+         id="rect2893"
+         style="display:inline;fill:#000000;filter:url(#filter2912)"
+         d="m 413.05996,322.27905 v 365.47071 c 0,0 82.53992,-7.17969 165.08984,-7.17969 82.53992,0 165.08984,7.17969 165.08984,7.17969 V 322.27905 Z m 14.91992,8.86133 H 728.31972 V 631.48023 H 427.97988 Z" />
+      <path
+         id="rect2889"
+         style="display:inline;fill:#f2f2f2"
+         d="M 413.05996,318.05054 V 680.23023 H 743.23964 V 318.05054 Z m 14.91992,13.08984 H 728.31972 V 631.48023 H 427.97988 Z" />
+      <path
+         id="rect2916"
+         style="display:inline;opacity:0.55556;fill:#cccccc"
+         d="M 424.89003,328.20093 V 636.82007 H 731.3998 V 328.20093 Z m 3.08985,2.93945 H 728.31972 V 631.48023 H 427.97988 Z" />
+      <rect
+         id="rect2310"
+         style="display:none;fill:#000000;stroke:#000000;stroke-width:0.78245;stroke-linejoin:round"
+         height="300.34"
+         width="300.34"
+         y="331.14001"
+         x="427.98001" />
+      <path
+         id="rect3250"
+         sodipodi:nodetypes="cczcc"
+         style="display:inline;opacity:0.19907;fill:#ffffff"
+         d="m 427.59,330.75 h 300.34 c 0,0 -47.35,61.4 -122.43,102.97 -75.09,41.58 -177.91,63.33 -177.91,63.33 z" />
+    </g>
+  </g>
+  <metadata
+     id="metadata34">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:date>2007-11-11T23:12:31</dc:date>
+        <dc:description>A blank Polaroid.</dc:description>
+        <dc:source>https://openclipart.org/detail/8144/polaroid-by-smerrell</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>smerrell</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>how i did it</rdf:li>
+            <rdf:li>photo</rdf:li>
+            <rdf:li>polaroid</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
