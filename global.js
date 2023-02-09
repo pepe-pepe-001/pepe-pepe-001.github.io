@@ -50,3 +50,18 @@ function setCSSVariable(eleName, varName, value) {
 function getCSSvariable(varName) {
     return getComputedStyle(document.body).getPropertyValue(`--${varName}`);
 };
+
+//helper function to get event values
+function getEventValue(etype, key) {
+    return new Promise((resolve, reject) => {
+        bc.addEventListener('message', event => {
+            if (event.data.type === etype && event?.data[key]) {
+                resolve(event?.data?.difficulty);
+            };
+        });
+    
+        bc.postMessage({
+            type: etype
+        });
+    });
+};

@@ -10,7 +10,8 @@ const routes = {
     post_game: './scenes/post_game/index.html',
     game_mode: './scenes/game_mode/index.html',
     difficulty: './scenes/difficulty/index.html',
-    cutscene01: './scenes/cutscene01/index.html'
+    cutscene01: './scenes/cutscene01/index.html',
+    cutscene02: './scenes/cutscene02/index.html'
 };
 
 let winner = '',

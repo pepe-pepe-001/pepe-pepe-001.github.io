@@ -19,5 +19,8 @@ bc.postMessage({
 })
 
 setTimeout(() => {
+    //set skip true to enable skipping cutscenes
+    localStorage.setItem('skip', 'true');
+
     animateAndNavigate(bc, 'slide-out-left', 'menu');
 }, 3000);

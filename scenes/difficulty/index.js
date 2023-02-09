@@ -16,7 +16,7 @@ hardButton.addEventListener('click', event => {
         difficulty: 'hard'
     });
 
-    animateAndNavigate(bc, 'slide-out-left', 'game');
+    animateAndNavigate(bc, 'slide-out-left', 'cutscene02');
 });
 
 //easy button
@@ -30,7 +30,7 @@ easyButton.addEventListener('click', event => {
         difficulty: 'easy'
     });
 
-    animateAndNavigate(bc, 'slide-out-left', 'game');
+    animateAndNavigate(bc, 'slide-out-left', 'cutscene02');
 });
 
 //medium button
@@ -44,6 +44,6 @@ mediumButton.addEventListener('click', event => {
         difficulty: 'medium'
     });
 
-    animateAndNavigate(bc, 'slide-out-left', 'game');
+    animateAndNavigate(bc, 'slide-out-left', 'cutscene02');
 });
 

@@ -1,0 +1,20 @@
+.container {
+    background-color: black;
+}
+
+.text {
+    color:white;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    opacity: 0;
+}
+
+.mainTextContainer {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
