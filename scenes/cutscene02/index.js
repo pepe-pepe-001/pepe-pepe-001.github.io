@@ -12,11 +12,11 @@ async function run() {
     let difficulty = await getEventValue('getDifficulty', 'difficulty') ?? null;
 
     if (difficulty === 'hard') {
-        textElement.textContent = 'hard text';
+        textElement.textContent = `Even tough she's the most popular\nand beautiful girl in school I'm sure\nyou stand a chance. R-r-r-right?`;
     } else if (difficulty === 'medium') {
-        textElement.textContent = 'medium text';
+        textElement.textContent = `I'm certain her cold exterior means\nshe secretly loves you. R-r-right?`;
     } else if (difficulty === 'easy') {
-        textElement.textContent = 'easy text';
+        textElement.textContent = `She's your childhood friend, romance\nis essentially inevitable. Right?`;
     } else {
         textElement.textContent = 'Something went wrong...';
     };
@@ -26,8 +26,8 @@ async function run() {
         
         setTimeout(() => {
             animateAndNavigate(bc, 'fade-out', 'game');
-        }, 5000);
-    }, 3000);
+        }, 10000);
+    }, 2000);
 };
 
 

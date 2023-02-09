@@ -187,9 +187,9 @@ function minmax(newBoard, turn, difficulty = 'hard') {
 
         let temp;
         if (difficulty == 'easy') {
-            return easyMoves[getRandomInt(0,easyMoves.length)];
+            return easyMoves[getRandomInt(0, easyMoves.length)];
         } else if (difficulty == 'medium') {
-            return mediumMoves[getRandomInt(0,mediumMoves.length)];
+            return mediumMoves[getRandomInt(0, mediumMoves.length)];
         } else {
             return bestMove;
         };
@@ -253,7 +253,12 @@ function endGame() {
             winner: winner
         });
 
-        animateAndNavigate(bc, 'slide-out-left', 'post_game');
+        if (winner === 'x') {
+            animateAndNavigate(bc, 'slide-out-left', 'post_game');
+        } else {
+            animateAndNavigate(bc, 'slide-out-left', 'cutscene03');
+        };
+
         return true;
     };
     return false;
