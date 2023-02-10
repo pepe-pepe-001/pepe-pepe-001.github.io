@@ -1,7 +1,7 @@
 const bc = new BroadcastChannel('main');
 
 //set the size of our scenes
-setSceneCSSVariables(500, 500);
+setSceneCSSVariables(300, 300);
 
 
 

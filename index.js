@@ -1,3 +1,6 @@
+setCSSVariable('root', 'gameWidth', `${300}px`);
+setCSSVariable('root', 'gameHeight', `${300}px`);
+
 const rbc = new BroadcastChannel('main');
 const sbc = new BroadcastChannel('main');
 
@@ -46,3 +49,9 @@ rbc.addEventListener('messageerror', event => {
 // setTimeout(() => {
 //     objectContainer.setAttribute('data', routes['menu']);
 // }, 1000);
+
+// helper function to set css variable
+function setCSSVariable(eleName, varName, value) {
+    document.querySelector(`:${eleName}`)
+    .style.setProperty(`--${varName}`, value);
+};
