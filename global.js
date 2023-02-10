@@ -43,7 +43,7 @@ function setSceneCSSVariables(gw, gh) {
 // helper function to set css variable
 function setCSSVariable(eleName, varName, value) {
     document.querySelector(`:${eleName}`)
-    .style.setProperty(`--${varName}`, value);
+        .style.setProperty(`--${varName}`, value);
 };
 
 //helper funciton to get css variable
@@ -59,9 +59,14 @@ function getEventValue(etype, key) {
                 resolve(event?.data?.difficulty);
             };
         });
-    
+
         bc.postMessage({
             type: etype
         });
     });
+};
+
+//for cutscenes
+function isSkippable() {
+    return (localStorage.getItem('skip') ?? 'false') === 'true';
 };

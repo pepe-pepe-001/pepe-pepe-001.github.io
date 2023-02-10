@@ -1,6 +1,6 @@
 document.body.addEventListener('click', e => {
     if (isSkippable) {
-        animateAndNavigate(bc, 'fade-out', 'post_game');
+        animateAndNavigate(bc, 'fade-out', 'photo');
     };
 });
 
@@ -17,7 +17,7 @@ async function run() {
         textElement.classList.add('fade-in');
         
         setTimeout(() => {
-            animateAndNavigate(bc, 'fade-out', 'post_game');
+            animateAndNavigate(bc, 'fade-out', 'photo');
         }, 10000);
     }, 2000);
 };

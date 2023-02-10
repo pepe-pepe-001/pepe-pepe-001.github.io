@@ -15,7 +15,8 @@ const routes = {
     difficulty: './scenes/difficulty/index.html',
     cutscene01: './scenes/cutscene01/index.html',
     cutscene02: './scenes/cutscene02/index.html',
-    cutscene03: './scenes/cutscene03/index.html'
+    cutscene03: './scenes/cutscene03/index.html',
+    photo: './scenes/photo/index.html'
 };
 
 let winner = '',
