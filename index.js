@@ -16,7 +16,9 @@ const routes = {
     cutscene01: './scenes/cutscene01/index.html',
     cutscene02: './scenes/cutscene02/index.html',
     cutscene03: './scenes/cutscene03/index.html',
-    photo: './scenes/photo/index.html'
+    photo: './scenes/photo/index.html',
+    cutscene04: './scenes/cutscene04/index.html',
+    cutscene05: './scenes/cutscene05/index.html'
 };
 
 let winner = '',

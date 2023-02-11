@@ -1,0 +1,59 @@
+.container {
+    background-color: black;
+}
+
+.text {
+    color:white;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    opacity: 0;
+}
+
+.mainTextContainer {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sound {
+    display: none;
+}
+
+
+.camera-flash {
+    animation-name: camera-flash;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes camera-flash {
+    0% {
+        background-color: white;
+    }
+
+
+    49% {
+        background-color: white;
+    }
+    50% {
+        background-color: black;
+    }
+
+    74% {
+        background-color: black;
+    }
+    75% {
+        background-color: white;
+    }
+
+    95% {
+        background-color: white;
+    }
+    100% {
+        background-color: black;
+    }
+}

@@ -254,7 +254,7 @@ function endGame() {
         });
 
         if (winner === 'x') {
-            animateAndNavigate(bc, 'slide-out-left', 'post_game');
+            animateAndNavigate(bc, 'slide-out-left', 'cutscene04');
         } else {
             animateAndNavigate(bc, 'slide-out-left', 'cutscene03');
         };

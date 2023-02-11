@@ -15,7 +15,7 @@ const navigate = function (bc, page) {
 // export {bc, navigate};
 
 //animate and navigate to new scene
-function animateAndNavigate(bc, animation, destination) {
+function animateAndNavigate(bc, animation, destination, animationDuration = 500) {
 
     //add animation class to the body element
     document.body.className = '';
@@ -27,7 +27,7 @@ function animateAndNavigate(bc, animation, destination) {
             type: 'navigation',
             destination: destination
         });
-    }, 500);
+    }, animationDuration);
 };
 
 // set the size of the scene var in global.css
@@ -56,7 +56,7 @@ function getEventValue(etype, key) {
     return new Promise((resolve, reject) => {
         bc.addEventListener('message', event => {
             if (event.data.type === etype && event?.data[key]) {
-                resolve(event?.data?.difficulty);
+                resolve(event?.data[key]);
             };
         });
 
