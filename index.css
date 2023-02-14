@@ -1,7 +1,7 @@
 object {
     width: var(--gameWidth);
     height: var(--gameHeight);
-    background-color: darkgray;
+    background-color: black;
 }
 
 body {
