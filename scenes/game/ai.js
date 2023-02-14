@@ -229,13 +229,12 @@ function endGame() {
     // winner = classArray.some(e => e == '') ? '' : 'draw';
     // console.log(classArray, `result: ${winner}`);
 
-    if (!classArray.some(e => e == '')) {
-        winner = 'draw';
-    }
-    else if (checkForWinner(classArray, 'x')) {
+    if (checkForWinner(classArray, 'x')) {
         winner = 'x';
     } else if (checkForWinner(classArray, 'o')) {
         winner = 'o';
+    } else if (!classArray.some(e => e == '')) {
+        winner = 'draw';
     };
 
 

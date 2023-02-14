@@ -1,12 +1,10 @@
-const skippable = isSkippable();
-
 //moved to html
 //document.body.classList.add('fade-in');
 
 animateText();
 
 document.body.addEventListener('click', e => {
-    if (skippable) {
+    if (isSkippable()) {
         animateAndNavigate(bc, 'fade-out', 'cutscene05');
     };
 });
@@ -40,6 +38,3 @@ function animateText() {
 
 };
 
-function isSkippable() {
-    return (localStorage.getItem('skip') ?? 'false') === 'true';
-};

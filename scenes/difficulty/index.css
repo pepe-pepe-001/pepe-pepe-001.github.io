@@ -36,7 +36,7 @@
     flex: 1;
     background-color: cyan;
     margin: 0px 10px 10px 10px; 
-    user-select: none;
+    /* user-select: none; */
 }
 
 .option img {

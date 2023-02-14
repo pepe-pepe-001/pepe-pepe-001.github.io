@@ -1,5 +1,5 @@
 document.body.addEventListener('click', e => {
-    if (isSkippable) {
+    if (isSkippable()) {
         transition();
     };
 });
@@ -22,11 +22,6 @@ async function run() {
     }, 2000);
 };
 
-
-function isSkippable() {
-    return (localStorage.getItem('skip') ?? 'false') === 'true';
-};
-
 function transition() {
     setTimeout(() => {
         let ele = document.querySelector('#sound');
@@ -35,7 +30,4 @@ function transition() {
     document.querySelector('.container').style.opacity = 0;
     animateAndNavigate(bc, 'camera-flash', 'photo', 2000);
 }
-
-
-
 

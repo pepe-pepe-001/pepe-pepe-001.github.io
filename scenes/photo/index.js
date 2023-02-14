@@ -1,5 +1,5 @@
 document.body.addEventListener('click', e => {
-    if (isSkippable) {
+    if (isSkippable()) {
         animateAndNavigate(bc, 'fade-out', 'menu');
     };
 });

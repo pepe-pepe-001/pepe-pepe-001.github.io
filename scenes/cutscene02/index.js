@@ -1,5 +1,5 @@
 document.body.addEventListener('click', e => {
-    if (isSkippable) {
+    if (isSkippable()) {
         animateAndNavigate(bc, 'fade-out', 'game');
     };
 });
@@ -29,14 +29,4 @@ async function run() {
         }, 10000);
     }, 2000);
 };
-
-
-function isSkippable() {
-    return (localStorage.getItem('skip') ?? 'false') === 'true';
-};
-
-
-
-
-
 
