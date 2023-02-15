@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: center;
     scale: 130%;
-    rotate: -10deg;
+    /* rotate: -10deg; */
 }
 
 .polaroid-bg {

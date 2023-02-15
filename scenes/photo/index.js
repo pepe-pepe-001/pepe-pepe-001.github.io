@@ -4,6 +4,7 @@ document.body.addEventListener('click', e => {
     };
 });
 
+setRandomRotationForPolaroid();
 run();
 
 
@@ -27,9 +28,16 @@ async function run() {
 
     setTimeout(() => {
         document.querySelector('.polaroid img').classList.add('fade-in');
-        
+
         setTimeout(() => {
             animateAndNavigate(bc, 'fade-out', 'menu');
         }, 10000);
     }, 1000);
+};
+
+
+//set random rotation for polaroid
+function setRandomRotationForPolaroid() {
+    let ele = document.querySelector('.polaroid');
+    ele.style.rotate = `${(getRandomInt(10, 16) * (getRandomInt(0, 10) % 2 == 0 ? -1 : 1))}deg`;
 };
